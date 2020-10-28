@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <title>Basic CSS!</title>
+  <style>
+    body {background-color:grey;}
+    h1 {color:turquoise;}
+    p {color:green;}
+    .pink{
+      color: Pink;
+    }
+    #purple{
+      color: Purple;
+    }
+    div p{
+      color: Orange;
+    }
+    div > h4{
+      color: Yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is turquoise text using the tag selector! (This color is so pretty.)</h1>
+    <p>Here are some words in green text using the tag selector. (This color is not nearly as pretty.)</p>
+    <p class="pink">
+      This is pink text using the class selector.  (Color is about 8/10 on the pretty scale.)
+    </p>
+    <div id="purple">
+      Here are words in purple text using ID selector. (Plum in the fall is always 7/10.)
+      <p>This is orange text using descendant combinator. (Spooky season means orange is a must.)</p>
+      <h4>Here is yellow text using child combinator. (This looks pretty good but the temperature is a little too cold for it to be great.)</h4>
+    </div>
+</body>
+</html>

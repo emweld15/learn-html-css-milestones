@@ -155,34 +155,34 @@ Each section should be contained in its own `<section>` tag. Do not use any CSS 
 
 You should be able to create sections that demonstrate...
 
-- [ ] The following block-level text containers:
-  - [ ] ✏️ The paragraph `<p>` tag
-  - [ ] ✏️ The blockquote `<blockquote>` tag
-  - [ ] ✏️ The pre-formatted text `<pre>` tag
-- [ ] Inline text styling using the following tags:
-  - [ ] ✏️ `<em>` and `<i>`
-  - [ ] ✏️ `<strong>` and `<b>`
-  - [ ] ✏️ `<code>`
-- [ ] ✏️ The `<a>` tag
-- [ ] ✏️ The `<img>` tag
-- [ ] ✏️ The different header tags `<h1>`, `<h2>`, `<h3>`, etc.
+- [x] The following block-level text containers:
+  - [x] ✏️ The paragraph `<p>` tag
+  - [x] ✏️ The blockquote `<blockquote>` tag
+  - [x] ✏️ The pre-formatted text `<pre>` tag
+- [x] Inline text styling using the following tags:
+  - [x] ✏️ `<em>` and `<i>`
+  - [x] ✏️ `<strong>` and `<b>`
+  - [x] ✏️ `<code>`
+- [x] ✏️ The `<a>` tag
+- [x] ✏️ The `<img>` tag
+- [x] ✏️ The different header tags `<h1>`, `<h2>`, `<h3>`, etc.
 
 ### Lists
 
 Building on `basic-tags.html`, you should be able to do the following:
 
-- [ ] ✏️ Create multiple unordered lists using the `<ul>` and `<li>` tags
-- [ ] ✏️ Create multiple ordered lists using the `<ol>` and `<li>` tags
-- [ ] ✏️ Include other HTML inside the list item (`<li>`) tags, e.g., paragraphs, images, links, etc.
-- [ ] ✏️ Nest lists within each other
+- [x] ✏️ Create multiple unordered lists using the `<ul>` and `<li>` tags
+- [x] ✏️ Create multiple ordered lists using the `<ol>` and `<li>` tags
+- [x] ✏️ Include other HTML inside the list item (`<li>`) tags, e.g., paragraphs, images, links, etc.
+- [x] ✏️ Nest lists within each other
 
 ### Tables
 
 Building on `basic-tags.html`, you should be able to create tables of varying sizes:
 
-- [ ] ✏️ Create a 3x3 table using the `<table>`, `<tr>`, and `<td>` tags
-- [ ] ✏️ Add headings using the `<th>` tag
-- [ ] ✏️ Create two more tables of different dimensions
+- [x] ✏️ Create a 3x3 table using the `<table>`, `<tr>`, and `<td>` tags
+- [x] ✏️ Add headings using the `<th>` tag
+- [x] ✏️ Create two more tables of different dimensions
 
 ### Multimedia
 
@@ -223,13 +223,13 @@ Building on `basic-tags.html`, you should be able to create tables of varying si
 
 Using `basic-css.html`, you should be able to demonstrate the following by using a `<style>` tag to include the CSS:
 
-- [ ] Selectors...
-  - [ ] ✏️ Type / tag selectors
-  - [ ] ✏️ Class selectors
-  - [ ] ✏️ ID selectors
-- [ ] Combinators...
-  - [ ] ✏️ Descendant combinator
-  - [ ] ✏️ Child combinator
+- [x] Selectors...
+  - [x] ✏️ Type / tag selectors
+  - [x] ✏️ Class selectors
+  - [x] ✏️ ID selectors
+- [x] Combinators...
+  - [x] ✏️ Descendant combinator
+  - [x] ✏️ Child combinator
 
 ### Styling A Page
 
@@ -249,9 +249,9 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 
 ✏️ You should be able to create a new file called `index.html` and do the following:
 
-- [ ] Implement a CSS framework like [Bootstrap](https://getbootstrap.com/)
-  - [ ] ✏️ Find and add the Bootstrap starter template to `index.html`
-  - [ ] ✏️ Add a "full width" section using `.container-fluid` inside the top of `<body></body>` element
+- [x] Implement a CSS framework like [Bootstrap](https://getbootstrap.com/)
+  - [x] ✏️ Find and add the Bootstrap starter template to `index.html`
+  - [x] ✏️ Add a "full width" section using `.container-fluid` inside the top of `<body></body>` element
   ```
 	<div class="container-fluid">
 		<div class="row">
@@ -259,7 +259,7 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 		</div>
 	</div>
   ```  
-  - [ ] ✏️ Add a new "regular width" section using `.container` underneath the full width section
+  - [x] ✏️ Add a new "regular width" section using `.container` underneath the full width section
   ```
   <div class="container">
 	  <div class="row">
@@ -267,10 +267,10 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 	  </div>
   </div>
   ```  
-  - [ ] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs/4.5/layout/grid/) to display a one column layout (mobile) and a three column layout (in large displays and above).
-  - [ ] ✏️ In the first column in the above section, add a link to each of the above html files.
-  - [ ] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs/4.5/components/forms/) that use Bootstrap classes.  
-  - [ ] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
+  - [x] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs/4.5/layout/grid/) to display a one column layout (mobile) and a three column layout (in large displays and above).
+  - [x] ✏️ In the first column in the above section, add a link to each of the above html files.
+  - [x] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs/4.5/components/forms/) that use Bootstrap classes.  
+  - [x] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
 
 
 
@@ -282,10 +282,10 @@ You should be able to...
 
 ### Publish HTML/CSS to the web
 
-- [ ] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
-- [ ] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
-- [ ] ✏️ Replace this: **[https://github.com/*username*/learn-html-css-milestones](https://github.com/*username*/learn-html-css-milestones)** with your Github.com/repository url.
-- [ ] ✏️ Replace this: **[https://*username*.github.io/learn-html-css-milestones](https://*username*.github.io/learn-html-css-milestones)** with your repo's Github Page url.
+- [x] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
+- [x] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
+- [x] ✏️ Replace this: **[https://github.com/*username*/learn-html-css-milestones](https://github.com/*username*/learn-html-css-milestones)** with your Github.com/repository url.
+- [x] ✏️ Replace this: **[https://*username*.github.io/learn-html-css-milestones](https://*username*.github.io/learn-html-css-milestones)** with your repo's Github Page url.
 
 
 
